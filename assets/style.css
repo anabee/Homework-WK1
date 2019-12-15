@@ -1,0 +1,30 @@
+
+/* All headings should have the font family listed in h1 below */
+h1 {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* All other fonts shoulkd use the following font fmaily: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+
+body {
+    background-color: #ffffff;
+}
+
+/* Header */
+
+header {
+    background-color: #ffffff;
+}
+
+/* Body */
+
+p {
+    background-color: #777777;
+}
+
+/* Footer */
+
+footer {
+    background-color: #666666;
+}
