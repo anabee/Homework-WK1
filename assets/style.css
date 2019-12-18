@@ -1,30 +1,157 @@
 
 /* All headings should have the font family listed in h1 below */
-h1 {
-    background-color: #4aaaa5;
+h2 {
+    color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 /* All other fonts shoulkd use the following font fmaily: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
 
 body {
-    background-color: #ffffff;
+    background-image: url('palm-leaf.png');
 }
+
+
 
 /* Header */
 
-header {
+.header {
+    position:relative;
+    bottom: 0;
     background-color: #ffffff;
+    margin: 0 auto;
 }
+
+.header-left {
+    background-color: #4aaaa5;
+    padding: 20px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left:30px;
+    left: 200px;
+}
+
+.header-right {
+    background-color: #ffffff;
+    margin-left: 900px;
+    padding: 20px;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.headerlinks {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header-name {
+    color: #ffffff;
+}
+
+
 
 /* Body */
 
-p {
-    background-color: #777777;
+section {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
 }
+
+p {
+   color: #777777;
+}
+
+.section-title {
+    border-bottom: 20px;
+    border-bottom-color: #4aaaa5;
+}
+
+
+
+/* About Me - Body */
+
+.profilepic {
+    height: 200px;
+    background: transparent no-repeat center;
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+
+
 
 /* Footer */
 
 footer {
     background-color: #666666;
+    border-top: #4aaaa5;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
 }
+
+
+/* Contact Page */
+
+.contact {
+    display: block;
+    width: 800px;
+    border: none;
+}
+
+.inputfield {
+    width: 100%;
+}
+
+.contacttitle {
+    border-bottom: 2px;
+}
+
+/* Portfolio */
+
+.box {
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    bottom: 35px;
+    padding: 10px;
+
+}
+
+.portfolio-image {
+    background: transparent no-repeat center;
+    background-size: cover;
+    
+}
+
+.content-container {
+    width: 300px;
+    height: 300px;
+}
+
+#container-1 {
+    float: left;
+}
+
+#container-2 {
+    float: right;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

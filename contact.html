@@ -11,37 +11,43 @@
 </head>
 <body>
 
-    <header>
+        <nav class="header">
 
-        <h1>Ana Valdivia</h1>
-        
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="Portfolio">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        
-    </header>
+                <div class="header-left">
+                    <h2 class="header-name">Ana Valdivia</h2>
+                </div>
+
+                <div class="header-right">
+
+                    <ul class="headerlinks">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                </div>
+    </nav>
+
+    <div class="clearfix"></div>
         
     <section>
 
-        <h2>Contact</h2>
+        <h2 class="section-title" id="contacttitle">Contact</h2>
 
-        <fieldset>
+        <fieldset class="contact">
 
-            <label>
-                <input>
+            <label>Name
+                <input class="inputfield" type="text" name="Name" placeholder="John Smith">
             </label>
 
-            <label>
-                <input>
+            <label>Email
+                <input class="inputfield" type="email" name="Email" placeholder="j.smith@gmail.com">
             </label>
 
-            <label>
-                <input>
+            <label>Message
+                <textarea class="inputfield" rows="25" name="Message"></textarea>
             </label>
+
+            <button name="Submit">Submit</button>
 
         </fieldset>
 
