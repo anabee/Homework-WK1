@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
 
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
 
 </head>
 <body>
+
+    <div class="content">
 
         <nav class="header">
 
@@ -20,18 +23,24 @@
                 <div class="header-right">
 
                     <ul class="headerlinks">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About |</a></li>
+                        <li><a href="portfolio.html">Portfolio |</a></li>
                         <li><a href="contact.html">Contact</a></li>
                      </ul>
                 </div>
     </nav>
 
     <div class="clearfix"></div>
+
+    <div class="content-inside">
         
-    <section>
+    <section id="portfolio-section">
 
         <h2 class="section-title">Portfolio</h2>
+
+        <div class="division"></div>
+
+        <br>
         
         <div class="container-set1">
 
@@ -47,26 +56,33 @@
 
         </div>
         
-        <div class="container-set2">
+        <div class="container-set2 clearfix">
 
-        <div class="content-container">
+        <div class="content-container" id="container-3">
             <img class="portfolio-image" src="./images/trivia.jpeg" alt="trivia contestants">
             <div class="box">Trivia Game</div>
         </div>
 
-        <div class="content-container container-set-2">              
+        <div class="content-container" id="container-4">              
             <img class="portfolio-image" src="./images/widget.jpeg" alt="phone on laptop">
             <div class="box">Rutgers Info Widget</div>
         </div>
 
         </div>
         
-        <div class="content-container">
+
+        <div class="content-container" id="container-5">
             <img class="portfolio-image" src="./images/rps.png" alt="rock, papper, scissors">
             <div class="box">Rock Paper Scissors</div>
         </div>
 
     </section>
+
+    </div>
+
+    </div>
+
+    <div class="page-break"></div>
         
     <footer>
         <small>&copy; Ana Valdivia</small>
